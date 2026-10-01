@@ -421,16 +421,14 @@ section {
   color: transparent;
 }
 .lb-prev {
-  left: 8px;
-  top: 90%;
-  bottom: auto;
-  transform: none;
+  left: -64px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .lb-next {
-  right: 8px;
-  top: 90%;
-  bottom: auto;
-  transform: none;
+  right: -64px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .lb-prev:hover { transform: translateY(-50%) scale(1.12) translateX(-4px); }
 .lb-next:hover { transform: translateY(-50%) scale(1.12) translateX(4px); }
@@ -590,10 +588,16 @@ section {
   .card:nth-of-type(4) { grid-column: 4 / span 3; grid-row: 5 / span 4; }
   .card:nth-of-type(5) { grid-column: 2 / span 3; grid-row: 9 / span 4; }
   .lb-prev {
-    left: 12px; bottom: -58px; top: auto; transform: none;
+    left: 8px;
+    top: 90%;
+    bottom: auto;
+    transform: none;
   }
   .lb-next {
-    right: 12px; bottom: -58px; top: auto; transform: none;
+    right: 8px;
+    top: 90%;
+    bottom: auto;
+    transform: none;
   }
   .lb-prev:hover { transform: scale(1.1); }
   .lb-next:hover { transform: scale(1.1); }
